@@ -1,0 +1,73 @@
+h1
+{
+    text-align: center;
+}
+
+.l1
+{
+    color: rgb(0,110,230);
+}
+
+.l2
+{
+    color: rgb(20,110,210);
+}
+
+.l3
+{
+    color: rgb(40,110,190);
+}
+
+.l4
+{
+    color: rgb(60,110,170);
+}
+
+.l5
+{
+    color: rgb(80,110,150);
+}
+
+.l6
+{
+    color: rgb(100,110,130);
+}
+
+.l7
+{
+    color: rgb(120,110,110);
+}
+
+.l8
+{
+    color: rgb(140,110,90);
+}
+
+.barre
+{
+    text-align: right;
+    font-size: 30px;
+}
+
+.change, .about
+{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.accueil
+{
+    color: rgb(180,30,30);
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+
+*
+{
+    font-family: "Courier New";
+    font-weight: bold;
+    background-color: rgb(230, 200, 150);
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static 'listings/accomp.css' %}" />
+	{% block adapt %} {% endblock %}
+    <title> Django c'est génial </title>
+</head>
+
+<body>
+    <p class="intro"> <br>
+        <h1>
+            <span class="l1"> D </span>
+            <span class="l2"> L </span>
+            <span class="l3"> C </span>
+            <span class="l4"> - </span>
+            <span class="l5"> M </span>
+            <span class="l6"> E </span>
+            <span class="l7"> M </span>
+            <span class="l8"> O </span>
+        </h1>
+		<br>
+        <p class="barre">
+            <a class="accueil" href="http://127.0.0.1:8000/refs" title="accueil">Accueil</a>
+            <a class="change" href="http://127.0.0.1:8000/modify" title="change">Modifier</a>
+            <a class="about" href="http://127.0.0.1:8000/about-us" title="about">A propos</a>
+        </p>
+    </p>
+    <p class="reste">
+		<br> <br> <br> <br>
+		{% block content %} {% endblock %}
+    </p>
+
+</body>
+</html>

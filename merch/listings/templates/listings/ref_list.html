@@ -1,0 +1,24 @@
+{% extends 'listings/base.html' %}
+
+{% load static %}
+
+{% block adapt %}
+<link rel="stylesheet" href="{% static 'listings/refStyle.css' %}" />
+{% endblock %}
+
+{% block content %}
+<p class="pres"> Voici le catalogue de nos références: <br>
+<table class="tableur">
+	<tr>
+	<th> Référence </th>
+	<th> Date d'expiration </th>
+	</tr>
+	{% for ref in refs %}
+	<tr>
+		<td> {{ ref.gtin }} </td>
+		<td> {{ ref.expiration_date }} </td>
+	</tr>
+	{% endfor %}
+</table>
+</p>
+{% endblock %}
