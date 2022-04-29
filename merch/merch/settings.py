@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'tutorial_1',#BASE_DIR / 'db.sqlite3',
-		'USER':'lim',
+		#'USER':'lim',
 		'HOST':'localhost',
 		'PORT':5433
     }
